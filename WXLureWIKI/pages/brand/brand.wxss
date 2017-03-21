@@ -14,8 +14,8 @@ margin: 8PX  0PX  0PX  0PX ;
 padding: 10PX  0PX  10PX  15PX ; 
  width:375px;
  height: 37PX; 
- background-color: #ffffff; 
- color: #FFFFFF; 
+ background-color: #FFFFFF; 
+ color: #000000; 
  font-size: 20PX; 
  line-height:20PX; 
 

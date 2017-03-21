@@ -31,7 +31,7 @@ Page({
     indexy:"",
     indexEnglish:"",
     arrId:indexArr,
-    userInfo:"这是一条数据"
+    userInfo:"TEST"
   },
   touchstart:function(e){
     this.setData({

@@ -95,7 +95,9 @@
         </view>
         
       </view>
-      <scroll-view scroll-y="true" style="height:{{windowHeight}}px;"  scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+    </view>
+  </view>
+        <scroll-view scroll-y="true" style="height:{{windowHeight}}px;"  scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
   <view class="search-english" id="a">
     A
   </view>
@@ -257,5 +259,3 @@
   <view wx:for="{{arrId}}" wx:for-item="i" id="{{i}}" catchtouchstart="touchstart" catchtouchmove="touchmove" catchtouchend="touchend">{{i}}</view>
 </view>
 <view class="index-name" wx:if="{{indexShow}}" >{{indexEnglish}}</view>
-    </view>
-  </view>
